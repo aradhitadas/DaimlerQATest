@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="Features",
 		plugin = {"pretty", "html:target/cucumber-html-report"},
-		tags = {"@TestCase_4DayForcast_API"}		
+		tags = {("@TestCase_4DayForcast_API"),("@TestCase_4DayForcast_1")}		
 		//glue={"Forcast4DaySteps"}
 		)
 
